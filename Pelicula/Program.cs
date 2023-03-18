@@ -22,7 +22,7 @@ namespace Pelicula
      
         public void Imprime()
         {
-     //       Console.WriteLine($"{titulo} ({año})");
+            Console.WriteLine($"{titulo} ({año})");
 
         }
 
@@ -53,8 +53,8 @@ namespace Pelicula
 
             Pelicula p1=new Pelicula("Interestelar",2014);
             Pelicula p2=new Pelicula("Top Gun",2022);
-            Console.WriteLine(p1);
-            Console.WriteLine(p2);
+            p1.Imprime();
+            p1.Imprime();
             //Console.WriteLine("Hello");
         }
     }
